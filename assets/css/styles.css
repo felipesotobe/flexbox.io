@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Color de fondo general */
+}
+.header {
+    background-color: #754377; /* Fondo azul para el header */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Distribución de elementos alineados */
+    align-items: center;
+}
+.header .usuario {
+    display: flex;
+    align-items: center;
+}
+.usuario img {
+    width: 40px; /* Ancho de la imagen de usuario */
+    height: 40px; /* Altura de la imagen de usuario */
+    border-radius: 50%; /* Para hacer la imagen redonda */
+    margin-right: 10px; /* Espacio entre imagen y texto */
+}
+.usuario .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.usuario .nombre {
+    font-weight: bold;
+    font-size: 16px; /* Tamaño de fuente del nombre */
+}
+.estatus {
+    display: flex;
+    align-items: center;
+}
+.estatus .iconos {
+    margin-left: 10px; /* Espacio entre los iconos */
+    font-size: 20px; /* Tamaño de fuente de los iconos */
+}
+.contactos {
+    display: flex;
+    flex-direction: column; /* Alineación vertical */
+    align-items: flex-start; /* Alineación a la izquierda */
+    padding: 20px;
+}
+.contacto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Espacio entre contactos */
+    padding: 10px;
+    border: 1px solid #948c8c;
+    border-radius: 5px;
+    width: 400px; /* Ancho del contenedor de contacto */
+}
+.contacto img {
+    width: 60px; /* Ancho de la imagen del contacto */
+    height: 60px; /* Altura de la imagen del contacto */
+    border-radius: 50%; /* Para hacer la imagen redonda */
+    margin-right: 15px; /* Espacio entre imagen y texto */
+}
+.info {
+    flex: 0.5; /* Ocupa todo el espacio restante */
+}
+.info .nombre {
+    font-weight: bold;
+}
+.info .mensaje {
+    font-size: 14px;
+    color: #555;
+}
+.boton-nuevo-chat {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    margin-top: 20px; /* Espacio encima del botón */
+}
+.boton-nuevo-chat button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.mano{
+    display: flex;
+    justify-content: flex-end;
+}
